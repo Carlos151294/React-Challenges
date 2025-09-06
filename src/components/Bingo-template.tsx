@@ -1,5 +1,7 @@
 import React from "react";
 
+import "./Bingo-template.css";
+
 const getRandomInteger = (min: number, max: number) => {
   return Math.ceil(Math.random() * (max - min) + min);
 };
