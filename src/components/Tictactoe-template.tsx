@@ -37,7 +37,7 @@ const calculateWinner = (board: Board): Player | null => {
   return null;
 };
 
-export const Tictactoe = () => {
+const Tictactoe = () => {
   const [board, setBoard] = React.useState<Board>(new Array(9).fill(null));
   const [player, setPlayer] = React.useState<Player>(Player.X);
 
@@ -68,3 +68,5 @@ export const Tictactoe = () => {
     </div>
   );
 };
+
+export default Tictactoe;

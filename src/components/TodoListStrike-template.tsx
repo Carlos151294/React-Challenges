@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import Collapsible from "./Collapsible";
 
 interface Todo {
   name: string;
@@ -33,13 +32,7 @@ const App = () => {
   };
 
   return (
-    <div id="todo-list-strikethrough" className="container">
-      <h2>To-do List with Strikethrough</h2>
-      <Collapsible>
-        <span>Create a to-do list</span>
-        <span>Click on each item to strikethrough item</span>
-        <span>Click on item again to remove strikethrough</span>
-      </Collapsible>
+    <div>
       <input
         className="round-input"
         type="text"

@@ -28,7 +28,7 @@ const generateBoard = () => {
   ];
 };
 
-export const Bingo = () => {
+const Bingo = () => {
   const [board] = React.useState(generateBoard());
 
   return (
@@ -43,3 +43,5 @@ export const Bingo = () => {
     </div>
   );
 };
+
+export default Bingo;
