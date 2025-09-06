@@ -1,0 +1,26 @@
+.chess-container {
+  width: 400px;
+  height: 400px;
+  background: yellow;
+  display: grid;
+
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(8, 1fr);
+}
+
+.block {
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.white {
+  background: white;
+}
+
+.black {
+  color: white;
+  background: black;
+}
